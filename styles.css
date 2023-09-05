@@ -1,0 +1,139 @@
+body{
+    background-color: pink;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre&display=swap");
+*{  
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+h2{
+  color: #7f888f;
+  font-size: 16px;
+}
+
+section{
+  width: 75;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;  
+  font-size: 20px; 
+  padding: 0px 10px;
+  
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+nav {
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+}
+  
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+  
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+  
+nav a.active {
+  background-color: white;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: violet;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/*formulario*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: violet;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: gainsboro;
+}
+
+form {
+  border-radius: 5px;
+  background-color: #ccc8c8;
+  padding: 20px;
+  width: 100%;
+}
+
+/*Boton*/
+button {
+  border: none; 
+  border-radius: 4px;
+  color: white; 
+  padding: 14px 28px; 
+  cursor: pointer; 
+}
+
+button {background-color: violet;} /* Green */
+button:hover {background-color: violet;}
+
+/*Video de Youtube*/
+iframe{
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+article{
+  text-align: center;
+}
+
+p{
+  margin-bottom: 20px ;
+}
